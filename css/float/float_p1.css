@@ -23,14 +23,14 @@ a {
   list-style-type: none;
 }
 
-.tab-menu::after {
+/* .tab-menu::after {
   content: "";
   display: block;
   clear: both;
-}
+} */
 
 .tab-menu-item {
-  float: left;
+  /* float: left; */
   margin-right: 16px;
 }
 
@@ -50,4 +50,12 @@ a {
 .tab-menu-item a {
   display: block;
   padding: 16px 20px;
+}
+
+.tab-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
