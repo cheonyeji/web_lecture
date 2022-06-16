@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+/* header style */
+header {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: lightseagreen;
+  color: white;
+  height: 80px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin-right: 20px;
+}
+
+/* nav style */
+
+nav {
+  background-color: lightgray;
+  padding: 10px 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+/* section style */
+
+.timetable {
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 10px 20px;
+}
+
+/* table style */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: lightblue;
+}
+
+th,
+td {
+  width: 130px;
+  text-align: center;
+}
+
+/* form style */
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+form button {
+  width: 100px;
+}
+
+/* footer style */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+  background-color: lightgray;
+}

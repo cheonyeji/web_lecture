@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./ex.css">
+  <title>도제반</title>
+</head>
+
+<body>
+  <header>
+    <a href="https://sangilmedia.sen.hs.kr">
+      <img src="./midterm_sample/img/logo.png" alt="">
+    </a>
+    <h2>상일미디어 고등학교 도제반 페이지</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="ex.html">홈</a>
+      </li>
+      <li>
+        <a href="https://sangilmedia.sen.hs.kr">상일미디어고</a>
+      </li>
+      <li>
+        <a href="" onclick="alert('서비스 준비 중입니다')">방명록</a>
+      </li>
+      <li>
+        <a href="" onclick="const id=prompt('이름을 입력하세요'); alert( `${id}님 환영합니다`)">로그인</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section>
+    <h3>5월 시간표</h3>
+    <table>
+      <tr>
+        <td></td>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+      </tr>
+      <tr>
+        <th>1교시</th>
+        <td>Quiz</td>
+        <td>Quiz</td>
+        <td>Quiz</td>
+        <td>Quiz</td>
+        <td>Quiz</td>
+      </tr>
+      <tr>
+        <th>2교시</th>
+        <td rowspan="3">화면구현 특강</td>
+        <td rowspan="3">화면구현 특강</td>
+        <td rowspan="3">화면구현 특강</td>
+        <td rowspan="3">화면구현 특강</td>
+        <td rowspan="3">화면구현 특강</td>
+      </tr>
+      <tr>
+        <th>3교시</th>
+      </tr>
+      <tr>
+        <th>4교시</th>
+      </tr>
+      <tr>
+        <th colspan="6">점심시간</th>
+      </tr>
+      <tr>
+        <th>5교시</th>
+        <td rowspan="2">화면구현 실습</td>
+        <td rowspan="2">화면구현 실습</td>
+        <td rowspan="2">화면구현 실습</td>
+        <td rowspan="2">화면구현 실습</td>
+        <td>화면구현 실습</td>
+      </tr>
+      <tr>
+        <th>6교시</th>
+        <td>동아리</td>
+      </tr>
+    </table>
+
+    <h3 class="form-h3">한줄 방명록 작성하기</h3>
+    <form action="">
+      <label for="input-wr">작성자</label>
+      <input class="input" type="text" id="input-wr" name="writer" placeholder="이름을 입력하세요" required />
+
+      <label for="input-ct">내용</label>
+      <input class="input" type="text" id="input-ct" name="content" placeholder="내용을 입력하세요" required />
+      <input class="sumbit-btn" type="submit" value="완료">
+    </form>
+  </section>
+
+  <footer>
+    <p>copyright 천예지</p>
+    <p>2022년 5월 18일 작성</p>
+  </footer>
+</body>
+
+</html>

@@ -4,7 +4,7 @@
 }
 
 .grandma {
-  position: relative;
+  /* position: relative; */
   width: 800px;
   margin: 0 auto;
   background-color: #212529;
@@ -24,7 +24,7 @@
 }
 
 .red {
-  position: absolute;
+  /* position: absolute; */
   background-color: red;
 }
 

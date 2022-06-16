@@ -4,9 +4,9 @@
 }
 
 .parent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
   width: 600px;
   margin: 0 auto;
   background-color: #eff2f7;

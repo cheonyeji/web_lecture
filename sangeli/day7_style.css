@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+/* header style */
+header {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: lightcoral;
+  color: white;
+  justify-content: space-between;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-right: 20px;
+}
+
+/* nav style */
+
+nav {
+  background-color: gray;
+  padding: 10px 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a:hover {
+  color: salmon;
+}
+
+/* section style */
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+section div {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* table style */
+
+.timetable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timetable h2 {
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: lightsalmon;
+}
+
+th,
+td {
+  width: 130px;
+}
+
+/* form style */
+
+.login,
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+}
+
+form div {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+/* footer style */
+footer {
+  background-color: gray;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}

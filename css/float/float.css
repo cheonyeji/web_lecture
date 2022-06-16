@@ -8,12 +8,13 @@ body {
 }
 
 .parent {
-  width: 200px;
+  width: 400px;
   margin: 0 auto;
   background-color: #efefef;
 }
 
 .child {
+  float: left;
   width: 200px;
   height: 200px;
   text-align: center;
