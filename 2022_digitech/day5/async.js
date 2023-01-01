@@ -44,7 +44,8 @@ promise
   });
 
 // async & await 사용
-// Promise 와는 다르게 에러를 핸들링 할 수 있는 기능이 없다. 따라서 try-catch() 문을 활용하여 에러를 핸들링
+// Promise 와는 다르게 에러를 핸들링 할 수 있는 기능이 없다.
+// 따라서 try-catch() 문을 활용하여 에러를 핸들링
 (async () => {
   const condition = true;
   const promise = new Promise((resolve, reject) => {
